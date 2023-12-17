@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Typography System */
+body {
+    /* font-family: 'Arial', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: 'Helvetica', sans-serif; */
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Colors */
+:root {
+    /* Primary Colors */
+    --primary-color: #3498db;
+
+    /* Tints */
+    --tint-1: #5faee3;
+    --tint-2: #82b9f5;
+    --tint-3: #a6c4f8;
+
+    /* Shades */
+    --shade-1: #2b82af;
+    --shade-2: #1f688c;
+    --shade-3: #154c66;
+
+    /* Accents */
+    --accent-1: #e74c3c;
+    --accent-2: #f06c5c;
+    --accent-3: #f39384;
+
+    /* Customize */
+    --button: #CF711F;
+}
+
+/* Shadows */
+.shadow {
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Border Radius */
+.rounded {
+    border-radius: 8px;
+}
+
+/* White Space */
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.spacing {
+    margin: 16px;
+    padding: 16px;
+}
+
+ion-icon {
+    color: #EA9244;
+  }
+
+/* General Reusable Components */
+.btn {
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    /* border: 2px solid var(--primary-color); */
+    border: 0;
+    /* color: var(--primary-color); */
+    color: #fff;
+    background-color: var(--button);
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    /* background-color: var(--primary-color); */
+    background-color: #a95c19;
+    /* color: #fff; */
+}
+
+.btn.white {
+    background-color: #fff;
+    color: #333333;
+    border: solid #fff;
+}
+
+.btn.white:hover {
+    background: none;
+}
+
+section, footer{
+    padding: 48px 0;
+}
+
+.heading1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.05;
+}
+
+.heading2 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.05;
+}
+
+.bold{
+    font-weight: 700;
+    color: #555555;
+}
+
+.parag {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.tag.lime{
+   background-color: #94D82D;
+}
+
+.tag.yellow{
+   background-color: #FFD43B;
+}
+
+.small_heading{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.ruler{
+    width: 100%;
+    height: 2px;
+    border-bottom: 5px solid #b22525;
+    margin-bottom: 40px;
+}

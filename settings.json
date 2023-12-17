@@ -1,0 +1,6 @@
+body.vscode {
+    background-image: url('C:\Users\User\Desktop\OneDrive\Pictures');
+    background-size: cover; /* Optional: Adjust the background size */
+    /* Additional styling if needed */
+  }
+  
